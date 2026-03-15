@@ -38,7 +38,7 @@ They are not software integrations. They don't connect to your route software, y
 
 ## How to sponsor a skill
 
-All skills are free. Sponsoring just means your name gets credited on it permanently. You can write the skill yourself if you have strong opinions on how something should work, or just claim an open one and we'll help you fill it in.
+All skills are free. Sponsoring just means your name gets credited on it. You can write the skill yourself if you have strong opinions on how something should work, or just claim an open one and we'll help you fill it in.
 
 Email **info@maptheday.com** with the skill name you want to claim. Your name and a link to your website will live on that skill forever.
 
@@ -65,13 +65,13 @@ Email **info@maptheday.com** with the skill name you want to claim. Your name an
 | Skill | Status | Sponsor | What it does for you | &nbsp; |
 |-------|--------|---------|----------------------|--------|
 | yard-quote-estimator | ✅ | Zachary Glontz | If you're using AI to help price a new customer's yard, this teaches it what actually drives the cost — yard size, dog count, how neglected it is, and frequency — so the number you land on makes sense and holds up. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/customer-talk/yard-quote-estimator/SKILL.md) |
-| complaint-response | ○ | — | If a customer reaches out upset — missed visit, quality issue, billing confusion — this helps your AI draft a response that takes responsibility, sounds human, and keeps the relationship intact. | *Coming soon* |
-| cancellation-handler | ○ | — | If a customer says they want to cancel, this helps your AI coach you through the conversation — what to offer, what to ask, when to try to save it, and how to let go gracefully if it's time. | *Coming soon* |
-| firing-a-customer | ○ | — | If you have a customer who isn't worth keeping — chronic non-payer, unsafe dog, impossible to deal with — this helps your AI write the message that ends the relationship professionally without drama. | *Coming soon* |
-| price-increase-notice | ○ | — | If you need to raise your rates, this helps your AI write the customer message — how much notice to give, how to explain it without over-explaining, and how to frame it so most customers accept it and stay. | *Coming soon* |
-| objection-handling | ○ | — | If a prospect says "that seems expensive" or "I need to think about it," this gives your AI the language to respond confidently without being pushy — covering the most common objections a scooper owner hears. | *Coming soon* |
-| win-back-message | ○ | — | If you want to reach out to a customer who stopped service months ago, this helps your AI write a message that feels warm and personal rather than like a form email — and actually gets replies. | *Coming soon* |
-| seasonal-communication | ○ | — | If you need to message customers at the start of spring or heading into winter — resuming service, going on pause, or running a promotion — this gives your AI the right tone and timing for each situation. | *Coming soon* |
+| complaint-response | ○ | — | If a customer reaches out upset — missed visit, quality issue, billing confusion — this helps your AI draft a response that takes responsibility, sounds human, and keeps the relationship intact. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/customer-talk/complaint-response/SKILL.md) |
+| cancellation-handler | ○ | — | If a customer says they want to cancel, this helps your AI coach you through the conversation — what to offer, what to ask, when to try to save it, and how to let go gracefully if it's time. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/customer-talk/cancellation-handler/SKILL.md) |
+| firing-a-customer | ○ | — | If you have a customer who isn't worth keeping — chronic non-payer, unsafe dog, impossible to deal with — this helps your AI write the message that ends the relationship professionally without drama. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/customer-talk/firing-a-customer/SKILL.md) |
+| price-increase-notice | ○ | — | If you need to raise your rates, this helps your AI write the customer message — how much notice to give, how to explain it without over-explaining, and how to frame it so most customers accept it and stay. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/customer-talk/price-increase-notice/SKILL.md) |
+| objection-handling | ○ | — | If a prospect says "that seems expensive" or "I need to think about it," this gives your AI the language to respond confidently without being pushy — covering the most common objections a scooper owner hears. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/customer-talk/objection-handling/SKILL.md) |
+| win-back-message | ○ | — | If you want to reach out to a customer who stopped service months ago, this helps your AI write a message that feels warm and personal rather than like a form email — and actually gets replies. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/customer-talk/win-back-message/SKILL.md) |
+| seasonal-communication | ○ | — | If you need to message customers at the start of spring or heading into winter — resuming service, going on pause, or running a promotion — this gives your AI the right tone and timing for each situation. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/customer-talk/seasonal-communication/SKILL.md) |
 
 ---
 
@@ -79,9 +79,9 @@ Email **info@maptheday.com** with the skill name you want to claim. Your name an
 
 | Skill | Status | Sponsor | What it does for you | &nbsp; |
 |-------|--------|---------|----------------------|--------|
-| pooper-scooper-job-post | ○ | — | If you need to write a job listing, this helps your AI write something that attracts reliable, dog-friendly people and filters out the ones who'll ghost you after the first yard. | *Coming soon* |
-| first-day-script | ○ | — | If you're sending a new hire out for the first time, this helps your AI build a simple rundown of everything they need to know before they go solo — what to do, what to look out for, and how to handle the situations that always come up. | *Coming soon* |
-| performance-conversation | ○ | — | If a tech is taking too long on yards and it's throwing off your whole route, this helps your AI prepare you for that conversation — how to bring it up, what to say, and how to set a clear expectation without making it weird. | *Coming soon* |
+| pooper-scooper-job-post | ○ | — | If you need to write a job listing, this helps your AI write something that attracts reliable, dog-friendly people and filters out the ones who'll ghost you after the first yard. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/team/pooper-scooper-job-post/SKILL.md) |
+| first-day-script | ○ | — | If you're sending a new hire out for the first time, this helps your AI build a simple rundown of everything they need to know before they go solo — what to do, what to look out for, and how to handle the situations that always come up. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/team/first-day-script/SKILL.md) |
+| performance-conversation | ○ | — | If a tech is taking too long on yards and it's throwing off your whole route, this helps your AI prepare you for that conversation — how to bring it up, what to say, and how to set a clear expectation without making it weird. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/team/performance-conversation/SKILL.md) |
 
 ---
 
@@ -89,11 +89,11 @@ Email **info@maptheday.com** with the skill name you want to claim. Your name an
 
 | Skill | Status | Sponsor | What it does for you | &nbsp; |
 |-------|--------|---------|----------------------|--------|
-| review-request | ○ | — | If you want to ask a happy customer for a Google review, this helps your AI write the message — the right timing after a visit, the right tone, a direct link — so you actually get reviews instead of just meaning to ask. | *Coming soon* |
-| negative-review-response | ○ | — | If someone leaves you a bad review on Google, this helps your AI draft a public response that looks professional, addresses the issue without getting defensive, and shows future customers you handle problems well. | *Coming soon* |
-| referral-ask | ○ | — | If you want to ask a loyal customer to refer their neighbors, this helps your AI write the ask in a way that feels natural — not transactional — and tells them exactly what to say when they do refer someone. | *Coming soon* |
-| upsell-message | ○ | — | If you want to offer a customer an upgrade — adding a dog, going from biweekly to weekly, adding deodorizer — this helps your AI write the message so it feels like a helpful suggestion, not a sales pitch. | *Coming soon* |
-| neighborhood-outreach | ○ | — | If you want to reach out to neighbors in an area where you already have customers, this helps your AI write a door-hanger message or a Nextdoor post that's specific enough to feel local and personal. | *Coming soon* |
+| review-request | ○ | — | If you want to ask a happy customer for a Google review, this helps your AI write the message — the right timing after a visit, the right tone, a direct link — so you actually get reviews instead of just meaning to ask. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/growth/review-request/SKILL.md) |
+| negative-review-response | ○ | — | If someone leaves you a bad review on Google, this helps your AI draft a public response that looks professional, addresses the issue without getting defensive, and shows future customers you handle problems well. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/growth/negative-review-response/SKILL.md) |
+| referral-ask | ○ | — | If you want to ask a loyal customer to refer their neighbors, this helps your AI write the ask in a way that feels natural — not transactional — and tells them exactly what to say when they do refer someone. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/growth/referral-ask/SKILL.md) |
+| upsell-message | ○ | — | If you want to offer a customer an upgrade — adding a dog, going from biweekly to weekly, adding deodorizer — this helps your AI write the message so it feels like a helpful suggestion, not a sales pitch. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/growth/upsell-message/SKILL.md) |
+| neighborhood-outreach | ○ | — | If you want to reach out to neighbors in an area where you already have customers, this helps your AI write a door-hanger message or a Nextdoor post that's specific enough to feel local and personal. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/growth/neighborhood-outreach/SKILL.md) |
 
 ---
 
@@ -102,15 +102,15 @@ Email **info@maptheday.com** with the skill name you want to claim. Your name an
 | Skill | Status | Sponsor | What it does for you | &nbsp; |
 |-------|--------|---------|----------------------|--------|
 | yard-quote-estimator | ✅ | Zachary Glontz | If you're using AI to help price a new customer's yard, this teaches it the variables that drive the actual time and cost — so your quotes are consistent, fair, and protect your margins. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/pricing/yard-quote-estimator/SKILL.md) |
-| late-payment-followup | ○ | — | If a customer hasn't paid and you need to follow up, this gives your AI an escalating sequence of messages — friendly first, firmer later — with language that gets responses without damaging the relationship. | *Coming soon* |
-| pricing-confidence | ○ | — | If you're second-guessing your rates or losing quotes and wondering if you're priced wrong, this helps your AI walk you through how to evaluate your pricing against your costs and your market — not just your gut. | *Coming soon* |
-| service-agreement-language | ○ | — | If you want to put together a simple service agreement for new customers, this helps your AI draft the key clauses that matter most — cancellation, access, dogs, liability — in plain English. | *Coming soon* |
+| late-payment-followup | ○ | — | If a customer hasn't paid and you need to follow up, this gives your AI an escalating sequence of messages — friendly first, firmer later — with language that gets responses without damaging the relationship. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/pricing/late-payment-followup/SKILL.md) |
+| pricing-confidence | ○ | — | If you're second-guessing your rates or losing quotes and wondering if you're priced wrong, this helps your AI walk you through how to evaluate your pricing against your costs and your market — not just your gut. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/pricing/pricing-confidence/SKILL.md) |
+| service-agreement-language | ○ | — | If you want to put together a simple service agreement for new customers, this helps your AI draft the key clauses that matter most — cancellation, access, dogs, liability — in plain English. | [Download](https://raw.githubusercontent.com/maptheday/pooper-scooper-skills/main/skills/pricing/service-agreement-language/SKILL.md) |
 
 ---
 
 ## Contributing
 
-Want to write a skill? You don't need a tech background — just knowledge of your own business. Pick any skill marked ○, email **info@maptheday.com**, and we'll send you the template to fill in. Your name gets credited on it permanently.
+Want to write a skill? You don't need a tech background — just knowledge of your own business. Pick any skill marked ○, email **info@maptheday.com**, and we'll send you the template to fill in. Your name gets credited on it.
 
 ---
 
