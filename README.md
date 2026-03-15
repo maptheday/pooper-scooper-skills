@@ -17,7 +17,7 @@ This library is a collection of those training docs — written and shared for f
 
 ## How to use a skill in Claude (no tech background needed)
 
-1. Click the **Download** link next to any skill below — your browser will open the file
+1. Click the **Download** link next to any skill below — your browser will open the Skill
 2. Click on the download link within Github. It will download a 'Skill.md' file to your 'Downloads' folder
 3. Go to 'claude.ai' and login
 4. Once logged in, go to https://claude.ai/customize/skills
