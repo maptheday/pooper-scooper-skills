@@ -1,17 +1,22 @@
 ---
-description: Create a polite sequence of follow-ups for overdue invoices or missed payments.
+description: Create a pooper scooper late-payment follow-up sequence for overdue service invoices.
 ---
 
 # Late Payment Followup
 
-## Overview
-This skill covers how to follow up on and collect late or overdue payments professionally.
+Use this when a customer has not paid for scheduled yard service or a recurring waste removal invoice.
 
-## Learning Objectives
-- Establish payment expectations
-- Identify payment issues early
-- Craft collection communications
-- Maintain customer relationships while collecting
+## Recommended sequence
+1. Friendly reminder: mention the overdue invoice and next step.
+2. Firm follow-up: restate the amount, due date, and payment options.
+3. Final notice: explain that service will pause if payment is not received.
 
-## Content
-*Stub — needs contributor*
+## Why it matters
+- Late payments disrupt the route and make it harder to keep promises to other customers.
+- Clear communication protects your cash flow and keeps your service fair.
+
+## Example opening
+"This is a reminder that your payment for the last scheduled pick-up on [date] is still outstanding. Please send payment for [amount] so I can keep your yard on the regular route."
+
+## Strong close
+"If I don’t hear from you by [date], I’ll need to pause your service until the account is current."

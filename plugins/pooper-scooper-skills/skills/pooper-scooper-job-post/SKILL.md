@@ -1,17 +1,22 @@
 ---
-description: Write a job post that attracts reliable, dog-friendly pooper scooper applicants.
+description: Write a job post that attracts reliable, dog-friendly pooper scooper candidates.
 ---
 
 # Pooper Scooper Job Post
 
-## Overview
-This skill covers how to write effective job postings for pooper scooper positions.
+Use this when you need to recruit someone for recurring yard waste cleanup and route team work.
 
-## Learning Objectives
-- Craft compelling job descriptions
-- Highlight role benefits
-- Attract qualified candidates
-- Streamline the hiring process
+## What to highlight
+- This is outdoor work removing dog waste and keeping yards clean.
+- Reliability matters more than experience.
+- The job follows a route and has scheduled visits.
+- You must be comfortable around dogs and able to lift 25–30 lbs.
 
-## Content
-*Stub — needs contributor*
+## Suggested structure
+1. Short opening describing the role.
+2. What the work involves.
+3. What kind of person you want.
+4. How to apply.
+
+## Good closing line
+"If you’re dependable, comfortable around dogs, and want steady outdoor work servicing homes on a set route, send me a message."

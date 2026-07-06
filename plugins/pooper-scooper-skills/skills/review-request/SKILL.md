@@ -1,17 +1,17 @@
 ---
-description: Ask a satisfied customer for a Google or review-platform review.
+description: Ask a satisfied pooper scooper customer for a Google review.
 ---
 
 # Review Request
 
-## Overview
-This skill covers how to effectively request customer reviews and testimonials.
+Use this when a customer has had a good experience and you want to build your local reputation.
 
-## Learning Objectives
-- Identify review opportunities
-- Craft compelling review requests
-- Make requesting easy for customers
-- Leverage positive reviews
+## Best timing
+- After a successful pickup.
+- When the yard looks clean and the customer is pleased.
 
-## Content
-*Stub — needs contributor*
+## Suggested wording
+"Thanks for trusting us with your yard. If you’re happy with the service, a quick Google review would really help us reach other dog owners in the area."
+
+## Tip
+Include a direct link to the review page so it’s easy for them to leave feedback.

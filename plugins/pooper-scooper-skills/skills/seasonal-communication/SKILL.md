@@ -1,17 +1,21 @@
 ---
-description: Create seasonal customer messaging for changes in service or promotions.
+description: Create seasonal customer messaging for pooper scooper service changes, restarts, and promotions.
 ---
 
 # Seasonal Communication
 
-## Overview
-This skill covers how to adjust communication and service offerings based on seasonal trends.
+Use this when the weather or season changes and you need to update customers about service schedules or offers.
 
-## Learning Objectives
-- Understand seasonal customer needs
-- Prepare seasonal messaging
-- Optimize service offerings by season
-- Manage capacity planning
+## Common scenarios
+- Spring restart after winter slowdown.
+- Summer schedule changes or extra visits for hotter weather.
+- Fall leaf and dog waste volume increases.
+- Winter pause or reduced service.
 
-## Content
-*Stub — needs contributor*
+## Tone
+- Friendly and clear.
+- Explain what is changing and why.
+- Tell customers what happens next.
+
+## Example
+"Spring is here, and we’re restarting regular yard service this week. If you want to keep your yard clean and odor-free, reply to confirm your start date."

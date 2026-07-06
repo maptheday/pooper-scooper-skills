@@ -1,17 +1,21 @@
 ---
-description: Respond to a negative review in a calm, professional, and reputation-protecting way.
+description: Respond to a negative online review about a pooper scooper business in a professional, repair-minded way.
 ---
 
 # Negative Review Response
 
-## Overview
-This skill covers how to professionally respond to and manage negative customer reviews.
+Use this when a customer posts a bad review about a missed service, messy yard, rude communication, or billing issue.
 
-## Learning Objectives
-- Respond promptly and professionally
-- Address concerns directly
-- Demonstrate commitment to improvement
-- Turn detractors into promoters
+## What to include
+- Acknowledgment of the reviewer’s experience.
+- A short apology if the service failed.
+- An offer to resolve the issue offline.
+- A note that you care about getting it right.
 
-## Content
-*Stub — needs contributor*
+## Tone
+- Calm and sincere.
+- Do not argue or defend publicly.
+- Keep it short and focused on the customer.
+
+## Example
+"I’m sorry we didn’t meet your expectations on your yard service. We want every customer to have a clean, reliable pick-up, and I’d like to make this right. Please message me directly so I can correct this and ensure it doesn’t happen again."

@@ -1,17 +1,22 @@
 ---
-description: Help evaluate pricing decisions and build confidence in your rates.
+description: Help a pooper scooper operator evaluate their service pricing and feel confident charging fair rates.
 ---
 
 # Pricing Confidence
 
-## Overview
-This skill covers how to develop confidence in your pricing and communicate it effectively to customers.
+Use this when you want to justify your rates or decide whether a quote is too low.
 
-## Learning Objectives
-- Understand value-based pricing
-- Build confidence in pricing decisions
-- Communicate pricing with conviction
-- Handle price negotiations
+## What to consider
+- Yard size and layout.
+- Number of dogs and waste volume.
+- Access, gates, and obstacles.
+- Travel time and how full your route already is.
+- Seasonal factors like heat, rain, and leaf cleanup.
 
-## Content
-*Stub — needs contributor*
+## Recommended mindset
+- Price for actual labor, not just the yard size.
+- Factor in the time it takes to handle hidden waste, gates, and pets.
+- Don’t undercut yourself just to win a job.
+
+## Useful framing
+"Our price is based on the real time it takes to keep your yard clean and the reliability we bring to the route."
