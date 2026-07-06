@@ -14,11 +14,17 @@ Use this when a prospect asks for a quote on recurring dog waste cleanup.
 - Whether they want weekly, biweekly, or seasonal service.
 
 ## Recommended workflow
-1. Ask for the address or photos so you can estimate accurately.
-2. Confirm the number of pets and how often the yard is used.
-3. Ask about access, gates, and obstacles.
-4. Build the price around the time and consistency required.
-5. Explain the quote in terms of reliability and yard health.
+1. Ask all of the following questions at once in a single message — do not send them one at a time:
+   - Customer name and address
+   - Number of dogs
+   - Yard size (small / medium / large / very large)
+   - Surface type (grass, gravel, mulch, etc.)
+   - Service frequency (weekly, biweekly, or monthly)
+   - Gate access (direct, side gate, street parking required, etc.)
+   - Any obstacles (steps, hills, multiple potty zones, tall grass, etc.)
+   - Is this a first clean or an ongoing recurring service?
+2. Wait for the operator to paste in all the answers.
+3. Once you have all of the above, do NOT ask any follow-up questions. Use the time estimate formula below to calculate the visit time and price, then immediately output a finished customer-facing quote document (see output format below).
 
 ## Good framing
 "This quote is based on the time it takes to remove all the waste and keep your yard clean from week to week, not just the size of the property."
@@ -106,3 +112,62 @@ Most established scooper routes run at $50–$80/hr depending on market. If you 
 - **Total: ~25 min → $25 at $60/hr → round to $27–$30/visit**
 
 Same dog count. Very different visits. The formula explains the difference without you having to apologize for the price.
+
+---
+
+## Output format
+
+Once all questions are answered, produce a Word document (.docx) the operator can download and send to the customer. Do not summarize or explain — just output the document. Use this structure:
+
+---
+
+**[Business Name]**
+Dog Waste Removal — Service Quote
+
+Date: [today's date]
+Prepared for: [Customer Name]
+Address: [Service Address]
+
+---
+
+**Your Service Plan**
+
+Service frequency: [Weekly / Biweekly / Monthly]
+Number of dogs: [#]
+Estimated visit time: [X minutes]
+
+---
+
+**Pricing**
+
+Price per visit: $[X]
+Estimated monthly total: $[X] ([# visits]/month)
+
+*Pricing is based on the time required to fully clear your yard at each visit. Rates are reviewed annually.*
+
+---
+
+**What's Included**
+
+- Complete removal of all dog waste from the service area
+- Bag and haul — nothing left behind
+- Tool sanitization between every yard
+- Consistent scheduled visits so your yard stays clean week to week
+
+---
+
+**To Accept This Quote**
+
+Reply to this message with "Sounds good" or sign below and return.
+
+Name: _______________________________
+
+Date: _______________________________
+
+---
+
+Questions? [Operator phone / email]
+
+---
+
+Keep the tone warm and professional. Do not include internal pricing math or the time formula in the customer document.
