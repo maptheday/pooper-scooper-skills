@@ -9,13 +9,10 @@
     "email": "info@maptheday.com"
   },
   "plugins": [
-    {
-      "name": "pooper-scooper-skills",
-      "description": "A curated library of Claude skills for pooper scooper operators.",
-      "source": {
-        "type": "github",
-        "repo": "maptheday/pooper-scooper-skills"
-      }
-    }
+  {
+    "name": "pooper-scooper-skills",
+    "description": "A curated library of Claude skills for pooper scooper operators.",
+    "source": "./plugins/pooper-scooper-skills"
+  }
   ]
 }
