@@ -1,0 +1,9 @@
+{
+  "name": "pooper-scooper-skills",
+  "description": "A curated library of Claude skills for pooper scooper operators: customer communication, team operations, growth, and pricing.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Map the Day"
+  },
+  "homepage": "https://maptheday.com"
+}

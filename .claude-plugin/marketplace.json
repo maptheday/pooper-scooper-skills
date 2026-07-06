@@ -1,0 +1,16 @@
+{
+  "name": "pooper-scooper-marketplace",
+  "description": "A marketplace of Claude skills for independent pooper scooper operators.",
+  "owner": {
+    "name": "Map the Day",
+    "email": "info@maptheday.com"
+  },
+  "plugins": [
+    {
+      "name": "pooper-scooper-skills",
+      "source": "./plugins/pooper-scooper-skills",
+      "description": "A curated library of Claude skills for pooper scooper operators.",
+      "version": "1.0.0"
+    }
+  ]
+}
