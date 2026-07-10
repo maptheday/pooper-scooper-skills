@@ -13,13 +13,7 @@
       "name": "pooper-scooper-skills",
       "version": "2.0.1",
       "description": "A curated library of Claude skills for pooper scooper operators.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/maptheday/pooper-scooper-skills.git",
-        "path": "plugins/pooper-scooper-skills",
-        "ref": "main",
-        "sha": "0e793f6de2ee39c3eb91a96aed6fdb6c61e5bc47"
-      }
+      "source": "./plugins/pooper-scooper-skills"
     }
   ]
 }
