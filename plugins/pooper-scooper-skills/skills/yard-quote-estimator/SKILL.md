@@ -6,39 +6,40 @@ description: Help estimate the true time and cost of a new pooper scooper yard q
 
 Use this when a prospect asks for a quote on recurring dog waste cleanup.
 
-## What to assess
-- Yard size, layout, and surface type.
-- Number of dogs and their potty habits.
-- Whether the yard has multiple potty areas or hard-to-reach corners.
-- Access issues like locked gates, steps, or shared driveways.
-- Whether they want weekly, biweekly, or seasonal service.
-
 ## Recommended workflow
-1. Ask all of the following questions at once in a single message — do not send them one at a time:
-   - Customer name and address
-   - Number of dogs
-   - Yard size (small / medium / large / very large)
-   - Surface type (grass, gravel, mulch, etc.)
-   - Service frequency (weekly, biweekly, or monthly)
-   - Gate access (direct, side gate, street parking required, etc.)
-   - Any obstacles (steps, hills, multiple potty zones, tall grass, etc.)
-   - Is this a first clean or an ongoing recurring service?
-2. Wait for the operator to paste in all the answers.
-3. Once you have all of the above, do NOT ask any follow-up questions. Use the time estimate formula below to calculate the visit time and price, then immediately output a finished customer-facing quote document (see output format below).
 
-## Good framing
-"This quote is based on the time it takes to remove all the waste and keep your yard clean from week to week, not just the size of the property."
+When this skill is triggered, immediately ask these questions and nothing else:
 
-## Warning signs
-- The customer gives a vague description of the yard.
-- The yard is cluttered, hard to access, or has multiple dogs.
-- They want weekly service but expect a very low price.
+---
+
+**About your business** (skip these if you've given them to me before in this conversation)
+
+1. Business name?
+2. City/market you operate in?
+3. Business phone or email to put on the quote?
+4. Your hourly rate?
+5. Minimum charge per visit, if you have one?
+
+**About this customer**
+
+6. Customer name and address?
+7. Number of dogs?
+8. Yard size — small, medium, large, or very large?
+9. Surface type — grass, gravel, mulch, or mix?
+10. Gate access — direct, side gate, or street parking?
+11. Any obstacles — steps, hills, multiple potty zones, tall grass?
+12. Service frequency — weekly, biweekly, or monthly?
+13. First clean or already on a schedule?
+
+---
+
+Once the operator pastes back their answers, calculate the quote silently using the formula below and output the finished document. Do not ask follow-up questions. Do not comment on their pricing. Do not suggest they verify anything. Just produce the quote.
 
 ---
 
 ## Time estimate formula
 
-Use this to calculate how long a visit should take. Always show your work when presenting a quote — walk through each step out loud so the customer understands why the price is what it is.
+Use this to calculate how long a visit should take. This math is for your calculation only — do not show it to the customer.
 
 ### Step 1 — Base time per dog
 Start here based on service frequency:
@@ -81,93 +82,112 @@ Add 3–5 minutes of travel and reset time (walking to/from vehicle, sanitizing 
 
 ## Pricing from time
 
-Once you have the visit time, price from your hourly target — not from what feels like a round number.
+Once you have the visit time, price using the operator's own hourly rate from their answers — never substitute a different number.
 
 **Formula:**
-> **Price per visit = (visit time in hours) × your hourly rate**
+> **Price per visit = (visit time in hours) × operator's hourly rate**
 
-Most established scooper routes run at $50–$80/hr depending on market. If you don't have a rate set, use $60/hr as a starting point and adjust from there.
+**Apply the minimum charge:**
+If the calculated price per visit is below the operator's stated minimum charge, use the minimum charge instead.
 
-**Then sanity-check the result:**
-- Does the monthly total feel reasonable for this customer's neighborhood?
-- Is there a minimum visit charge (common floor is $15–$20)?
-- If biweekly, is the per-visit price noticeably higher than weekly? It should be.
+**If the operator didn't give a rate:**
+Ask for it before calculating anything — do not guess or default to a placeholder rate.
 
 ---
 
-## Example: show this side-by-side in demos
+## Example: reference math (not shown to customer)
 
-**Customer A** — 2 dogs, medium yard, direct gate access, weekly service
+**Customer A** — 2 dogs, medium yard, direct gate access, weekly service, $60/hr rate
 - Base: 2 dogs × 5 min = 10 min
 - Size: 10 × 1.0 = 10 min
 - Obstacles: none
 - Travel/reset: +4 min
-- **Total: ~14 min → $14 at $60/hr → round to $16–$18/visit**
+- Total: 14 min → **$14/visit** (round up if needed, check against minimum)
 
-**Customer B** — 2 dogs, medium yard, gate requires street parking, biweekly service
+**Customer B** — 2 dogs, medium yard, gate requires street parking, biweekly service, $60/hr rate
 - Base: 2 dogs × 9 min = 18 min
 - Size: 18 × 1.0 = 18 min
 - Obstacles: street parking +3 min
 - Travel/reset: +4 min
-- **Total: ~25 min → $25 at $60/hr → round to $27–$30/visit**
+- Total: 25 min → **$25/visit** (round up if needed, check against minimum)
 
-Same dog count. Very different visits. The formula explains the difference without you having to apologize for the price.
+Same dog count, same rate. Very different visits — the formula explains the price difference without anyone having to apologize for it.
 
 ---
 
 ## Output format
 
-Once all questions are answered, produce a Word document (.docx) the operator can download and send to the customer. Do not summarize or explain — just output the document. Use this structure:
+Once all questions are answered, produce a Word document (.docx) the operator can download and send to the customer. Do not summarize or explain — just output the document. Use this exact template every time, word for word, only filling in the bracketed fields:
 
 ---
 
-**[Business Name]**
+[Business Name]
 Dog Waste Removal — Service Quote
 
-Date: [today's date]
-Prepared for: [Customer Name]
-Address: [Service Address]
+Date: [Month DD, YYYY]
+Prepared for: [Customer First Name] [Customer Last Name]
+Service address: [Full Address]
 
 ---
 
-**Your Service Plan**
+YOUR SERVICE PLAN
 
-Service frequency: [Weekly / Biweekly / Monthly]
-Number of dogs: [#]
-Estimated visit time: [X minutes]
-
----
-
-**Pricing**
-
-Price per visit: $[X]
-Estimated monthly total: $[X] ([# visits]/month)
-
-*Pricing is based on the time required to fully clear your yard at each visit. Rates are reviewed annually.*
+Frequency: [Weekly / Biweekly / Monthly] service
+Dogs: [#] dog(s)
+Yard: [Small / Medium / Large / Very large], [surface type]
+First visit: [Date or "To be scheduled"]
 
 ---
 
-**What's Included**
+PRICING
 
-- Complete removal of all dog waste from the service area
-- Bag and haul — nothing left behind
-- Tool sanitization between every yard
-- Consistent scheduled visits so your yard stays clean week to week
+First clean: $[X]
+Ongoing [frequency] rate: $[X] per visit
+Estimated monthly total: $[X] per month ([#] visits)
 
----
-
-**To Accept This Quote**
-
-Reply to this message with "Sounds good" or sign below and return.
-
-Name: _______________________________
-
-Date: _______________________________
+Pricing is based on the time required to fully clear your yard at each scheduled visit.
 
 ---
 
-Questions? [Operator phone / email]
+WHAT'S INCLUDED
+
+— Complete removal of all dog waste from the service area
+— Waste bagged and removed from the property
+— Tools sanitized between every yard
+— Consistent scheduled visits so your yard stays clean week to week
+— Text notification when we're on our way
 
 ---
 
-Keep the tone warm and professional. Do not include internal pricing math or the time formula in the customer document.
+TO ACCEPT THIS QUOTE
+
+Reply to this message with "Sounds good" and we'll get you on the schedule.
+
+Or sign and return:
+
+Name: ___________________________________
+
+Date: ___________________________________
+
+---
+
+Questions? Contact us at [operator phone] or [operator email].
+
+Thank you for the opportunity — we'd love to take this off your plate.
+
+[Business Name]
+
+---
+
+Rules for filling in this template:
+- Never change the section headers or punctuation
+- Never add sections or remove sections
+- [Business Name] = the business name given in the intake answers
+- [operator phone] / [operator email] = the contact info given in the intake answers
+- Calculate first clean price using the monthly/first clean rate from the formula (15 min per dog)
+- Calculate ongoing price using the correct frequency rate from the formula
+- If either calculated price falls below the operator's stated minimum charge, use the minimum charge instead
+- Monthly total = price per visit × number of visits per month (weekly = 4, biweekly = 2, monthly = 1)
+- Round all prices up to the nearest dollar
+- Do not show the time estimate math in the document
+- Do not add any commentary, coaching, or notes outside the document
