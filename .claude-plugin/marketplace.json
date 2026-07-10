@@ -26,6 +26,11 @@
         "path": "plugins/pooper-scooper-skills",
         "ref": "main"
       }
+    },
+      {
+      "name": "pooper-scooper-skills-v3",
+      "description": "A curated library of Claude skills for pooper scooper operators.",
+      "source": "plugins/pooper-scooper-skills"
     }
   ]
 }
