@@ -159,7 +159,7 @@ WHAT'S INCLUDED
 
 ---
 
-TO ACCEPT THIS QUOTE
+TO ACCEPT THIS QUOTE 
 
 Reply to this message with "Sounds good" and we'll get you on the schedule.
 
