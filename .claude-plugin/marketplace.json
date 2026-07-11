@@ -6,6 +6,7 @@
     "name": "Map the Day",
     "email": "mapthedayapp@gmail.com"
   },
+  "version": "2.0.2",
   "plugins": [
     {
       "name": "pooper-scooper-skills",
