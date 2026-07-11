@@ -1,5 +1,4 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pooper-scooper-marketplace",
   "description": "A marketplace of Claude skills for independent pooper scooper operators.",
   "owner": {
@@ -15,23 +14,9 @@
         "source": "git-subdir",
         "url": "https://github.com/maptheday/pooper-scooper-skills.git",
         "path": "plugins/pooper-scooper-skills",
-        "ref": "main"
+        "ref": "main",
+        "sha": "74986982fae9e9407c2f24eb4ae082228a41f909"
       }
-    },
-        {
-      "name": "pooper-scooper-skills-v2",
-      "description": "A curated library of Claude skills for pooper scooper operators.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/maptheday/pooper-scooper-skills.git",
-        "path": "plugins/pooper-scooper-skills",
-        "ref": "main"
-      }
-    },
-      {
-      "name": "pooper-scooper-skills-v3",
-      "description": "A curated library of Claude skills for pooper scooper operators.",
-      "source": "plugins/pooper-scooper-skills"
     }
   ]
 }
